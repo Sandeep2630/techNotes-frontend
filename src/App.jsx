@@ -15,7 +15,7 @@ function App() {
         <Route path="login" element={<Login />} />
         <Route path="dash" element={<DashLayout />}>
           <Route index element={<Welcome />} />
-          <Route path="notes">
+          <Route path="notes">   
             <Route index element={<NotesList />} />
           </Route>
           <Route path="users">
