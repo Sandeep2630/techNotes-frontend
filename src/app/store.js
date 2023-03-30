@@ -3,6 +3,5 @@ import { apiSlice } from "./api/apiSlice";
 
 export const store = configureStore({
   reducer: {},
-  devTools: true,
+  devTools: false,
 });
- 
